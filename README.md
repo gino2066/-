@@ -12,7 +12,6 @@ fr6tt
 >>我是屁屁村村長
 
 ```mermaid
-%%{ init : { "themeVariables": { "ganttBarFill": "#ffcc00", "ganttBarFill2": "#ff6600", "ganttBarFill3": "#00cc66", "ganttBarFill4": "#0066cc" } } }%%
 gantt
     title 專案甘特圖
     dateFormat  YYYY-MM-DD
@@ -20,8 +19,7 @@ gantt
     需求分析      :a1, 2024-09-01, 30d
     設計          :after a1  , 20d
     實作          :after a1  , 40d
-    測試          :after a1  , 20d
-
+    測試          :after a2  , 20d
 ```
 
 ![李昆達](https://github.com/user-attachments/assets/12729961-c415-49d4-a653-687a7ce322fa)
