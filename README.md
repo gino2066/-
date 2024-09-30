@@ -33,7 +33,9 @@ graph TD
     D --> E
     E --> F(6結束10月24號)
 ```
-### 關鍵路徑 1>2>3>4>5
+### 關鍵路徑 1>2>3>5>6
+
+
 
 ![李昆達](https://github.com/user-attachments/assets/12729961-c415-49d4-a653-687a7ce322fa)
 
