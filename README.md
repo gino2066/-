@@ -13,7 +13,7 @@ fr6tt
 
 ```mermaid
 gantt
-    title 專案甘特圖
+    title 甘特圖
     dateFormat  YYYY-MM-DD
     section 開發階段
     需求分析      :a1, 2024-09-01, 30d
