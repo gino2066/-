@@ -52,7 +52,7 @@ graph TD;
     style I fill:#ffcccc,stroke:#333,stroke-width:2px;
     style K fill:#ffcccc,stroke:#333,stroke-width:2px;
 ```
-<p align="center">關鍵路徑 1>2>3>5>6</p>
+<p align="center">關鍵路徑 1>2>4>6>9>11</p>
 
 
 ![李昆達](https://github.com/user-attachments/assets/12729961-c415-49d4-a653-687a7ce322fa)
