@@ -12,15 +12,15 @@ fr6tt
 >>我是屁屁村村長
 
 ```mermaid
-%%{ init : { "theme" : "default", "gantt": { "barHeight": 20, "padding": 10 } } }%%
+%%{ init : { "themeVariables": { "ganttBarFill": "#ffcc00", "ganttBarFill2": "#ff6600", "ganttBarFill3": "#00cc66", "ganttBarFill4": "#0066cc" } } }%%
 gantt
     title 專案甘特圖
     dateFormat  YYYY-MM-DD
     section 開發階段
-    需求分析      :a1, 2024-09-01, 30d, color: #ffcc00
-    設計          :after a1  , 20d, color: #ff6600
-    實作          :after a1  , 40d, color: #00cc66
-    測試          :after a2  , 20d, color: #0066cc
+    需求分析      :a1, 2024-09-01, 30d
+    設計          :after a1  , 20d
+    實作          :after a1  , 40d
+    測試          :after a1  , 20d
 
 ```
 
