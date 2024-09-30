@@ -42,7 +42,18 @@ graph TD
 ```
 <p align="center">關鍵路徑 1>2>3>5>6</p>
 
+### Mermaid
+```mermaid
+gantt
+    title A Gantt Diagram
 
+    section Section
+    A task           :a1, 2014-01-01, 30d
+    Another task     :after a1  , 20d
+    section Another
+    Task in sec      :2014-01-12  , 12d
+    anther task      : 24d
+```
 
 
 ![李昆達](https://github.com/user-attachments/assets/12729961-c415-49d4-a653-687a7ce322fa)
