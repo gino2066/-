@@ -21,6 +21,15 @@ gantt
     實作          :after a1  , 40d
     測試          :after a2  , 20d
 ```
+```mermaid
+graph TD
+    A(開始) --> B(任務1)
+    B --> C(任務2)
+    B --> D(任務3)
+    C --> E(任務4)
+    D --> E
+    E --> F(結束)
+
 
 ![李昆達](https://github.com/user-attachments/assets/12729961-c415-49d4-a653-687a7ce322fa)
 
