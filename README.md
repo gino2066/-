@@ -11,7 +11,7 @@ fr6tt
 >屁屁村
 >>我是屁屁村村長
 
-###Mermaid
+### Mermaid
 ```mermaid
 gantt
     title 甘特圖
