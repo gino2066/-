@@ -17,9 +17,10 @@ gantt
     dateFormat  YYYY-MM-DD
     section 開發階段
     需求分析      :a1, 2024-09-01, 30d
-    設計          :after a1  , 20d
-    實作          :after a1  , 40d
-    測試          :after a2  , 20d
+    設計          :after a1  , 5d
+    實作          :after a1  , 15d
+    測試          :after a2  , 3d
+    驗收          :after a2  , 3d 
 ```
 ```mermaid
 graph TD
