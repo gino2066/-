@@ -33,7 +33,7 @@ graph TD
     E --> F(結束10/24)
 ```
 ```mermaid
-graph TD
+graph LR
     A(開始) --> B(需求分析)
     B --> C(設計)
     C --> D(實作)
