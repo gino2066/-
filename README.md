@@ -17,11 +17,18 @@ gantt
     title 甘特圖
     dateFormat  YYYY-MM-DD
     section 開發階段
-    需求分析      :a1, 2024-09-01, 30d
-    設計          :after a1, 5d
-    實作          :after a1, 15d
-    測試          :after a3, 2024-10-16, 3d  
-    驗收          :after a4, 2024-10-19, 3d  
+    研擬計畫      :a1, 2024-09-01, 30d
+    任務分配          :a2, after a1, 5d
+    取得硬體          :a3, after a2, 15d
+    程式開發          :a4, after a3, 3d  
+    安裝硬體          :a5, after a4, 3d  
+    程式測試          :a6, after a5, 5d
+    撰寫使用手冊      :a7, after a6, 10d
+    轉換檔案          :a8, after a6, 5d
+    系統測試          :a9, after a5, 7d
+    使用者訓練        :a10, after a9, 5d
+    使用者測試        :a11, after a10, 5d
+
 
 ```
 ```mermaid
