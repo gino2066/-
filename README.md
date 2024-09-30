@@ -19,8 +19,8 @@ gantt
     需求分析      :a1, 2024-09-01, 30d
     設計          :after a1  , 5d
     實作          :after a1  , 15d
-    測試          :after a2  , 3d
-    驗收          :after a2  , 3d 
+    測試          :after a3  , 3d
+    驗收          :after a4  , 3d 
 ```
 ```mermaid
 graph TD
