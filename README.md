@@ -32,6 +32,23 @@ graph TD
     D --> E
     E --> F(結束10/24)
 ```
+```mermaid
+graph TD
+    A(開始) --> B(需求分析)
+    B --> C(設計)
+    C --> D(實作)
+    D --> E(測試)
+    E --> F(驗收)
+    F --> G(結束)
+
+    %% 設定每個任務的持續時間
+    A -->|0d| B
+    B -->|30d| C
+    C -->|5d| D
+    D -->|15d| E
+    E -->|3d| F
+    F -->|3d| G
+```
 
 ![李昆達](https://github.com/user-attachments/assets/12729961-c415-49d4-a653-687a7ce322fa)
 
