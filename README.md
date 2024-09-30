@@ -23,12 +23,12 @@ gantt
 ```
 ```mermaid
 graph TD
-    A(需求分析(9/30)) --> B(設計)
+    A(需求分析9/30) --> B(設計)
     B --> C(實作)
     B --> D(測試)
     C --> E(驗收)
     D --> E
-    E --> F(結束(10/24))
+    E --> F(結束10/24)
 ```
 
 ![李昆達](https://github.com/user-attachments/assets/12729961-c415-49d4-a653-687a7ce322fa)
